@@ -1,0 +1,42 @@
+.products {
+    padding: 0px 10px 10px 10px;
+    min-height: 100vh;
+}
+.productsTop {
+    display: flex;
+    align-items: center;
+    padding: 10px 40px 10px 35px;
+    justify-content: space-between;
+}
+.noProductsTop {
+    display: flex;
+    align-items: center;
+    padding: 10px 40px 10px 0px;
+    justify-content: space-between;
+}
+.productsCount {
+    font-size: 1.4em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.productSearch > input {
+    height: 40px;
+    width: 250px;
+    padding-left: 5px;
+    font-family: sans-serif;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+
+.searchBtn {
+    color: white;
+    background-color: #20a6d3;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    padding: 0px 10px 0px 10px;
+    margin-left: 3px;
+}
+.searchBtn:hover {
+    background-color: #1b8db3;
+}

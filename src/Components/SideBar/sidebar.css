@@ -1,0 +1,81 @@
+.sideBar {
+    margin-top: 56px;
+    max-width: 280px;
+    padding-bottom: 10px;
+    border-radius: 3px;
+    background-color: #73cbe9;;
+    /* box-shadow: 8px 8px 8px 0 rgba(50, 164, 168, 0.705), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+.filterSideBar {
+    font-size: 20px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.filterHeading {
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    font-family: sans-serif;
+}
+.filterIcon {
+    height: 40px;
+    width: auto;
+    position: absolute;
+    right: 1%;
+    top: 2%;
+    cursor: pointer;
+}
+.filterIcon > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 14px;
+    transform: rotate(90deg);
+    box-shadow: 4px 4px 10px #20a6d3;;
+    transition: 0.2s;
+}
+.filterIcon > img:hover {
+    height: 110%;
+}
+.filter {
+    font-size: 1.6em;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+}
+.filterInput {
+    padding: 7px;
+    padding-left: 30px;
+}
+.styleInput {
+    cursor: pointer;
+}
+.stylePrice {
+    width: 200px;
+    height: 30px;
+    border: none;
+    color: rgb(73, 73, 73);
+    padding-left: 10px;
+}
+.priceLabel, .customerRatings {
+    padding-bottom: 6px;
+    padding-top: 6px;
+    font-size: 16px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.styleLabel {
+    padding-left: 6px;
+    font-family: 'Lucida Sans Unicode';
+    font-size: 14px;
+}
+.star {
+    margin: 0;
+    margin-right: 3px;
+}
+
+
+
+

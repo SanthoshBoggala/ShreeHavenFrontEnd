@@ -1,0 +1,96 @@
+.buyPage {
+    padding: 20px;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    margin-left: 10px;
+}
+.productBuyDetails {
+    padding: 20px;
+    padding-left: 50px;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(207, 207, 207);
+}
+.buyExtra {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-size: 19px;
+}
+.buyExtra > select {
+    font-size: 14px;
+    padding: 5px;
+    margin-left: 10px;
+    width: 200px;
+}
+.count {
+    font-size: 14px;
+    padding: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+}
+.extras {
+    padding-top: 20px;
+}
+.totalPrice {
+    font-size: 16px;
+}
+.totalPrice > span {
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-left: 5px;
+}
+.buyPageBtn {
+    margin-top: 10px;
+}
+.buyPageBtn > button {
+    width: 200px;
+}
+.buyImage {
+    height: 400px;
+    width: 350px;
+    border-radius: 3px;
+    margin-left: 30px;
+}
+.buyImage > img {
+    height: 100%;
+    width: 100%;
+    border-radius: 3px;
+}
+
+.buyPage {
+    /* position: relative; */
+}
+
+.buyNowBtn, .closeNowBtn {
+    height: 40px;
+    border-radius: 3px;
+    border: none;
+    color: white;
+}
+.buyNowBtn {
+    background-color: rgb(14, 136, 61);
+}
+.closeNowBtn {
+    background-color: rgb(202, 63, 63);
+    margin-right: 30px;
+}
+.afterBuy {
+    /* position: absolute; */
+    width: 500px;
+    background-color: white;
+    border-radius: 5px;
+    padding-top: 10px;
+}
+.modelForm {
+    background-color: white;
+    border-radius: 5px;
+    padding-bottom: 20px;
+}
+  

@@ -1,0 +1,156 @@
+.reviewsPage {
+    margin: 20px;
+    padding: 5px;
+}
+.reviewHeading {
+    color: rgb(78, 85, 85);
+    font-size: 23px;
+    padding: 5px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.leftPadding {
+    color: rgb(78, 85, 85);
+    font-size: 23px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.reviewBox {
+    margin: 10px;
+    margin-bottom: 20px;
+    width: 200px;
+    min-height: 70px;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: start;
+    border: 1px solid rgb(165, 164, 164);
+    border-radius: 3px;
+    box-shadow: 4px 4px 10px grey;
+}
+.starRating {
+    font-size: 35px;
+    color: rgb(87, 86, 86);
+}
+.ratings {
+    color: gray;
+    font-size: 15px;
+    font-family: Impact;
+}
+
+.singleReview {
+    margin: 10px;
+    margin-bottom: 15px;
+    padding: 3px 0px;
+    box-shadow: 0px 4px 8px rgb(114, 151, 156);
+
+}
+.reviewUserDetails {
+    padding: 5px;
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 1px 4px grey;
+}
+.userRevieImage {
+    width: 30px;
+    padding-right: 3px;
+}
+.productStarRating {
+    font-size: 12px;
+    padding: 5px;
+}
+.reviewUser {
+    padding-right: 10px;
+    font-size: 15px;
+    font-family: Impact;
+}
+.reviewDate {
+    font-size: 14px;
+    color: rgb(71, 71, 71);
+    margin-right: 20px;
+}
+.reviewDescription {
+    margin:10px;
+    margin-bottom: 20px;
+    color: rgb(100, 100, 100);
+}
+.viewAllDiv {
+    display: flex;
+    margin: 0px 10px 0px 10px;
+    justify-content: space-between;
+}
+.viewAll{
+    font-size: 16px;
+    padding: 8px 12px 8px 12px;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(95, 176, 201);
+    box-shadow: 6px 6px 10px rgb(59, 123, 141);
+    transition: 0.2s;
+}
+.viewAll:hover {
+    transform: scale(1.1);
+    box-shadow: 6px 6px 10px rgb(59, 123, 141);
+
+}
+
+
+.giveStarRating {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.giveReviewHeading {
+    font-size: 18px;
+    color: grey;
+    margin-right: 20px;
+}
+.starSet {
+    margin-top: 3px;
+    display: flex;
+    flex-direction: row;
+}
+.star {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.star img{
+    width: 100%;
+    height: 100%;
+}
+.writeReview {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.writeReview > textarea {
+    font-family: Impact;
+    font-size: 15px;
+    padding: 5px;
+    min-width: 400px;
+    min-height: 60px;
+}
+.writeReview > button {
+    margin-top: 8px;
+    padding: 5px 15px 5px 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(84, 162, 185);
+    box-shadow: 6px 6px 10px rgb(59, 123, 141);
+    transition: 0.2s;
+}
+.writeReview > button:hover {
+    transform: scale(1.1);
+    box-shadow: 8px 8px 10px rgb(59, 123, 141);
+
+}

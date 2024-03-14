@@ -1,0 +1,144 @@
+.myOrders {
+    margin: 30px;
+    margin-top: 100px;
+}
+.orderHeading {
+    background-color: white;
+    margin: 10px;
+}
+.myOrderTitle {
+    font-size: 25px;
+    color: gray;
+}
+.orderText {
+    color: gray;
+    font-size: 15px;
+}
+.Allorders {
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+}
+
+.orderDiv {
+    padding-top: 1px;
+    background-color: white;
+    border: 1px solid rgb(205, 210, 212);
+    border-radius: 3px;
+    box-shadow: 0px 6px 10px rgb(94, 162, 189);
+}
+.orderUpper {
+    margin: 10px 10px 0px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.orderIdDiv {
+    display: flex;
+    align-items: end;
+}
+.orderId {
+    color: gray;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+.orderIdFront {
+    font-size: 15px;
+    color: rgb(71, 71, 71);
+    padding-right: 5px;
+}
+.orderedDate {
+    color: gray;
+    font-size: 14px;
+}
+.order {
+    text-align: center;
+    padding: 20px;
+}
+.orderImageDiv {
+    display: flex;
+    justify-content: center;
+}
+.orderImage {
+    width: 100px;
+    height: 100px;
+    transition: 0.2s;
+}
+.orderImage:hover {
+    transform: scale(1.05);
+    box-shadow: 4px 4px 10px rgb(43, 139, 177);
+}
+.orderImage > img {
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.orderDetails {
+    padding: 5px 5px 5px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+}
+.orderName {
+    font-size: 18px;
+    font-family: Impact;
+}
+.orderBrand {
+    color: gray;
+    font-size: 15px;
+}
+.orderOtherDetails {
+    display: flex;
+}
+.orderSize , .orderQuantity {
+    margin-right: 20px;
+    color: gray;
+    font-size: 15px;
+}
+.orderPrice {
+    font-size: 15px;
+    font-weight: 450;
+}
+
+.orderStatusDiv, .orderDateDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.status {
+    color: gray;
+}
+.orderStatus {
+    font-size: 15px;
+    padding: 8px;
+    font-family: sans-serif;
+}
+.orderStatusForm {
+    padding: 8px;
+}
+
+
+.date {
+    font-size: 15px;
+    color: grey;
+}
+.orderDate {
+    font-size: 18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.orderFilters {
+    font-size: 18px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+.updateOrder {
+    margin-top: 10px;
+    padding: 5px 15px;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(90, 158, 90);
+}

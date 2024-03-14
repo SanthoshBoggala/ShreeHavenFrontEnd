@@ -1,0 +1,14 @@
+.nabar {
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #20a6d3;
+    /* box-shadow: 0px 3px 2px #20a6d3; */
+}
+.navItem {
+    font-size: 16px;
+    color: rgb(51, 51, 51);
+}
+.brand {
+    letter-spacing: 2px;
+    font-style: italic;
+}

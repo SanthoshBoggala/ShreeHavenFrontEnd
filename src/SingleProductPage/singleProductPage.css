@@ -1,0 +1,178 @@
+.productPage {
+    margin-top: 60px;
+}
+
+.singleProductPage {
+    margin: auto;
+    max-width: 1300px;
+    margin-bottom: 20px;
+}
+.productImage {
+    margin: 5px;
+    min-height: 100vh;
+}
+.otherImages, .mainImage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.itemImg1 {
+    height: 450px;
+    width: 350px;
+    padding: 3px;
+    border-radius: 8px;
+    border: 1px solid rgb(102, 153, 173);
+    box-shadow: 8px 8px 10px rgb(102, 153, 173) ;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.itemImg1:hover {
+    transform: scale(1.02);
+}
+.itemImgs{
+    height: 80px;
+    width: 80px;
+    padding: 2px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    border: 1px solid rgb(102, 153, 173);
+    border-radius: 4px;
+    transition: 0.2s;
+}
+.itemImgs:hover {
+    transform: scale(1.1);
+    box-shadow: 6px 6px 10px rgb(102, 153, 173) ;
+}
+.itemImg1 > img, .itemImgs > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.itemImgs > img {
+    border-radius: 4px;
+}
+.productDetails {
+    padding: 30px;
+}
+.productDetails > div {
+    padding-bottom: 5px;
+}
+.productBrand {
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT';
+    font-weight: 600;
+}
+.productName {
+    font-size: 18px;
+    font-family: 'Lucida Sans', Arial, sans-serif;
+    font-weight: 450;
+}
+.productSpecialPrice {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(63, 128, 74);
+}
+.productPrice {
+    display: flex;
+    align-items: center;
+}
+.productNPrice {
+    font-size: 25px;
+    font-weight: 500;
+    font-family: Arial, sans-serif;
+    padding-right: 7px;
+}
+.productDiscount {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(63, 128, 74);
+    font-family: 'Lucida Sans', Arial, sans-serif;
+}
+.productOPrice {
+    font-size: 13px;
+    text-decoration: line-through;
+    padding-right: 7px;
+} 
+.productStarRating {
+    margin-right: 10px;
+}
+.productRatings , .productReviews {
+    margin-right: 7px;
+    color: rgb(95, 107, 105);
+    font-size: 15px;
+}
+.innerDescription {
+    font-family: 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+}
+.someHeadings {
+    font-size: 15px;
+    font-weight: 500;
+}
+.sizeOptions, .colorOptions {
+    margin-right: 10px;
+}
+.productOffers > div {
+    font-size: 12px;
+    padding-bottom: 2px;
+}
+.offerTag {
+    width: 18px;
+    margin-right: 4px;
+}
+.termsConditions {
+    color: rgb(46, 135, 207);
+    font-weight: 500;
+    cursor: pointer;
+}
+.productBts {
+    margin-top: 10px;
+    display: flex;
+}
+.cartProductImage {
+    width: 20px;
+}
+
+.gotToLogin {
+    color: rgb(245, 245, 245);
+    background-color: #20a6d3;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 3px;
+    padding: 8px 20px;
+}
+.productBts {
+    display: flex;
+    justify-content: space-between;
+}
+.AddToCartBtn {
+    background-color: rgb(204, 41, 41);
+    color: white;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 6px 6px 10px rgb(204, 41, 41);
+    transition: 0.2s;
+}
+.AddToCartBtn:hover {
+    background-color: #20a6d3;
+    box-shadow: 6px 6px 10px #20a6d3;
+}
+.buyBtn {
+    background-color: rgb(45, 128, 59);
+    color: white;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.2s;
+    box-shadow: 6px 6px 10px rgb(45, 128, 59);  
+
+}
+.buyBtn:hover {
+    background-color: #20a6d3;
+    box-shadow: 6px 6px 10px #20a6d3;  
+}

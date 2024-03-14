@@ -1,0 +1,8 @@
+.notFoundAndUnAuthorized {
+    height: 100vh;
+    width: 100%;
+}
+.notFoundAndUnAuthorized > img {
+    height: 100%;
+    width: 100%;
+}

@@ -1,0 +1,24 @@
+.productsPage {
+    margin-top: 60px;
+    padding: 2px;
+    position: relative; 
+}
+.outfilterIcon {
+    height: 40px;
+    width: auto;
+    position: absolute;
+    top: 0.7%;
+    left: -0.9%;
+    cursor: pointer;
+}
+.outfilterIcon > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 14px;
+    transform: rotate(90deg);
+    box-shadow: 4px 4px 10px rgb(74, 131, 196);
+    transition: 0.2s;
+}
+.outfilterIcon > img:hover {
+    height: 110%;
+}

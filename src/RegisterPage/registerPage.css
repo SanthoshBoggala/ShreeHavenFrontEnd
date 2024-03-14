@@ -1,0 +1,70 @@
+.registerPage {
+    height: 95vh;
+    margin-top: 55px;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-image: url('./loginbg.webp');
+
+    display: flex;
+    justify-content: center;
+}
+.registerForm {
+    background-color: rgb(1, 60, 99);
+    padding: 10px 50px 10px 50px;
+    border-radius: 3px;
+    color: white;
+    margin-top: 20px;
+    max-width: 700px;
+    font-size: 14px;
+    position: absolute;
+}
+.registerHeading {
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    padding: 10px;
+}
+.registerCaptions {
+    padding-left: 4px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 3px;
+}
+.registerInputs {
+    margin: 5px 0px 5px 5px;
+    height: 35px;
+    width: 250px;
+    color: rgb(80, 80, 80);
+    font-size: 15px;
+    padding: 2px;
+    padding-left: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.error {
+    margin-top: 2px;
+    text-align: center;
+    color: rgb(224, 62, 62);
+    font-weight: 500;
+    font-size: 1.1em;
+}
+.registerBtnDiv {
+    text-align: center;
+}
+.registerBtn {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 17px;
+    font-weight: 550;
+    margin-top: 10px;
+    background-color: rgba(23, 111, 194, 0.911);
+    color: white;
+    letter-spacing: 4px;
+    border: none;
+    height: 35px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 250px;
+}

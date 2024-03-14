@@ -1,0 +1,11 @@
+.homeHotDeals {
+    width: 100%;
+    /* background-color: rgb(202, 241, 238); */
+}
+.homeHeading {
+    font-size: 25px;
+    padding: 5px;
+    padding-left: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}

@@ -1,0 +1,90 @@
+.profilePage {
+    padding-top: 60px;
+}
+.outSideIcon {
+    height: 40px;
+    width: auto;
+    position: absolute;
+    top: 9.5%;
+    left: -0.8%;
+    cursor: pointer;
+}
+
+.profileSideBar {
+    margin-top: 57px;
+    padding-left: 5px;
+    max-width: 300px;
+    box-shadow: 4px 4px 10px gray;
+}
+.offcanvas-header {
+    align-items: start;
+    justify-content: center;
+    margin-right: 1px;
+    box-shadow: 0px 4px 10px #38abd1;;
+}
+.userSideBar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.userImg {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.userImg > img {
+    height: 100%;
+    width: 100%;
+}
+.sideBarUserName {
+    margin-top: 5px;
+    color: rgb(77, 77, 77);
+    font-family: Impact;
+}
+.sideBarIcon {
+    height: 40px;
+    width: auto;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    cursor: pointer;
+}
+.sideBarIcon > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 14px;
+    transform: rotate(90deg);
+    box-shadow: 2px 2px 5px #198cb3;
+    transition: 0.2s;
+}
+.sideBarIcon > img:hover {
+    height: 110%;
+}
+.offcanvas-body {
+    margin: 0;
+    padding: 0;
+}
+.sideBarItems > div {
+    cursor: pointer;
+    padding: 15px 20px 15px 30px;
+    box-shadow: 2px 2px 10px #20a6d3;
+    transition: 0.3s;
+}
+.sideBarItems > div:hover {
+    color: white;
+    background-color: #20a6d3;
+}
+
+
+
+.outSideIcon > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 14px;
+    transform: rotate(90deg);
+    box-shadow: 4px 4px 10px #20a6d3;;
+    transition: 0.2s;
+}
+.outSideIcon > img:hover {
+    height: 110%;
+}
